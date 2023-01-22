@@ -21,7 +21,7 @@ This point lies in second quadrant.
 
 */
 import java.util.*;
-class Main {
+class Day6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x,y;
