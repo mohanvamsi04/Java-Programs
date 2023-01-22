@@ -37,7 +37,7 @@ class Main {
     public static void main(String[] args) {
      Scanner sc=new Scanner(System.in);
      char ch=sc.next().charAt(0);
-     if((ch>=65&&ch<=90)||(ch>=97&&ch<=112)){
+     if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')){
      if(ch=='a'||ch=='A'||ch=='e'||ch=='E'||ch=='i'||ch=='I'||ch=='o'||ch=='O'||ch=='u'||ch=='U'){
          System.out.println("Vowel");
      }else{
@@ -49,3 +49,4 @@ class Main {
      }
     }
 }
+
