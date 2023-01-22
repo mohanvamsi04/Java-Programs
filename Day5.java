@@ -24,7 +24,7 @@ Odd
 */
 
 import java.util.*;
-class Main {
+class Day5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num;
