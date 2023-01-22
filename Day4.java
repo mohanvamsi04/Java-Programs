@@ -32,7 +32,7 @@ Positive number
 */
 
 import java.util.*;
-class Main {
+class Day4 {
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
