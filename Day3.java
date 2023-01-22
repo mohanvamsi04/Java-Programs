@@ -32,4 +32,3 @@ class Main {
         System.out.println((int)ch);
     }
 }
-
