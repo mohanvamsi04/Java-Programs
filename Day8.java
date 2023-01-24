@@ -27,12 +27,14 @@ public class Day8
 	 a=sc.nextInt();
 	 b=sc.nextInt();
 	 c=sc.nextInt();
-	 double r1,r2;
+	 double r1=0,r2=0;
 	 double d=b*b-4*a*c;
+	 if(d>=0){
 	 r1=(-b+Math.sqrt(d))/(2*a);
 	 r2=(-b-Math.sqrt(d))/(2*a);
+	 }
 	 
-	 if(r1==r2 && d==0){
+	 if(d==0){
 	     System.out.println("Roots are real and equal .");
 	     System.out.println("root1 = "+r1+" \nroot2 = "+r2);
 	 }
@@ -42,7 +44,10 @@ public class Day8
 	 }
 	 
 	 if(d<0){
+	     
 	     System.out.println("Roots are complex ");
+	     System.out.println("root1 = -"+b+"+sqrt("+d+")/"+2*a);
+	     System.out.println("root1 = -"+b+"-sqrt("+d+")/"+2*a);
 	    
 	 }
 	 
